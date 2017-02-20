@@ -91,8 +91,9 @@ public class MainActivity extends BaseActivityNoActionBar {
                 new GridViewItemBean(R.drawable.ic_traffic_stats, R.string.traffic_stats, new TrafficStatsCountScheme()),
                 new GridViewItemBean(R.drawable.ic_progress_manager, R.string.process_manager, new ProgressManagerScheme()),
                 new GridViewItemBean(R.drawable.ic_antivirus, R.string.anti_virus, new AntivirusScheme()),
-                new GridViewItemBean(R.drawable.ic_setting, R.string.setting, new SettingScheme()),
-                new GridViewItemBean(R.drawable.ic_clean_cache, R.string.clean_cache, new CleanCacheScheme())
+                new GridViewItemBean(R.drawable.ic_clean_cache, R.string.clean_cache, new CleanCacheScheme()),
+                new GridViewItemBean(R.drawable.ic_setting, R.string.setting, new SettingScheme())
+
         };
         // set adapter
         gvMenu.setAdapter(adapter);
