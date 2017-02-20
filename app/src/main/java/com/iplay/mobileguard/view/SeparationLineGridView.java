@@ -86,7 +86,7 @@ public class SeparationLineGridView extends GridView {
 //        System.out.println("lineSize=" + lineSize);
 
         // horizontal line
-        for (int i = 1; i < row; i++) {
+        for (int i = 0; i < row; i++) {
 //            System.out.println(String.format("(%d,%d) - (%d,%d)",
 //                    (int)(lineMarginLeft + 1), i * unitHeight - vSpace / 2,
 //                    (int)(getWidth() - lineMarginRight), i * unitHeight - vSpace / 2));
